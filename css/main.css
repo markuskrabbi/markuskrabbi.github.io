@@ -67,7 +67,7 @@ grid-template-columns: repeat(2, 1fr);
 grid-template-rows: 1fr;
 grid-column-gap: 0px;
 grid-row-gap: 0px;
-border: 10px solid cyan;
+border: 4px solid cyan;
 }
 p {
   display: inline-block;
