@@ -55,9 +55,32 @@ main {
   flex-direction: column;
   align-items: center;
 }
-.sides {
+.sisu {
   display: flex;
   justify-content: center;
   justify-content: space-between;
   line-height: 55px;
+}
+.parent {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+border: 10px solid cyan;
+}
+p {
+  display: inline-block;
+  line-height: 32px;
+  margin-bottom: 30px;
+}
+.vasakkeskel {
+  width: 500px;
+  margin: 4rem;
+  border-right: 5px solid cyan;
+}
+.paremkeskel {
+  width: 500px;
+  margin: 4rem;
+  border-left: 5px solid cyan;
 }
